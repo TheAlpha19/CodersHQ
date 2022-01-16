@@ -960,6 +960,111 @@ p {
   width: 50%;
 }
 
+.contrib-card {
+  background-color: #fff;
+  width: 280px;
+  border-radius: 33px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2rem !important
+}
+
+.contrib-top-container {
+  display: flex;
+  align-items: center
+}
+
+.contrib-profile-image {
+  border-radius: 10px;
+  border: 2px solid #5957f9
+}
+
+.contrib-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #272727;
+  position: relative;
+  top: 8px
+}
+
+.contrib-mail {
+  font-size: 14px;
+  color: grey;
+  position: relative;
+  top: 2px
+}
+
+.contrib-middle-container {
+  background-color: #eee;
+  border-radius: 12px
+}
+
+.contrib-dollar-div {
+  background-color: #5957f9;
+  padding: 12px;
+  border-radius: 10px
+}
+
+.contrib-round-div {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+.contrib-dollar {
+  font-size: 16px !important;
+  color: #5957f9 !important;
+  font-weight: bold !important
+}
+
+.contrib-current-balance {
+  font-size: 15px;
+  color: #272727;
+  font-weight: bold
+}
+
+.contrib-amount {
+  color: #5957f9;
+  font-size: 16px;
+  font-weight: bold
+}
+
+.contrib-dollar-sign {
+  font-size: 16px;
+  color: #272727;
+  font-weight: bold
+}
+
+.contrib-recent-border {
+  border-left: 2px solid #5957f9;
+  display: flex;
+  align-items: center
+}
+
+
+.contrib-recent-orders {
+  font-size: 16px;
+  font-weight: 700;
+  color: #5957f9;
+  margin-left: 2px
+}
+
+.contrib-wishlist {
+  font-size: 16px;
+  font-weight: 700;
+  color: #272727
+}
+
+.contrib-fashion-studio {
+  font-size: 16px;
+  font-weight: 700;
+  color: #272727
+}
+
 
 /* ===== About CSS ===== */
 .ud-about {
